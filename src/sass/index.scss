@@ -1,0 +1,40 @@
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/panels";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/type";
+@import "cover";
+@import "variables";
+
+
+html, body {
+	height: 100%;
+	background-color: $background-primario;
+}
+
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+	color: $cor-secundaria;
+	background-color: $background-secundario;
+	border: 1px solid #fff;
+}
+
+.cor1 {
+	height: 200px;
+	background-color: $cor1;
+	margin-bottom: 5px;
+}
+
+.cor2 {
+	height: 200px;
+	background-color: $cor2;
+	margin-bottom: 5px;
+}
+
+.cor3 {
+	height: 200px;
+	background-color: $cor3;
+	margin-bottom: 5px;
+}

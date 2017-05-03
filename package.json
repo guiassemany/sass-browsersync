@@ -1,0 +1,29 @@
+{
+  "name": "GuiAssemany-SassBrowserSync",
+  "version": "1.0.0",
+  "description": "Teste com Sass e BrowserSync + Builder / Bundler",
+  "main": "index.js",
+  "author": "Guilherme Assemany",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --bail",
+    "serve": "webpack --watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "browser-sync": "^2.18.8",
+    "browser-sync-webpack-plugin": "^1.1.4",
+    "css-loader": "^0.26.4",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.3",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}
